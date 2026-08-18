@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio | Web Developer</title>
+  <link rel="stylesheet" href="4.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <div class="logo">DevPortfolio</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero / Home Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h3>Hello, I'm a</h3>
+      <h1>Web Developer</h1>
+      <p class="headline">Building modern, responsive, and visually interactive web applications that drive impact.</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn primary-btn">View My Work</a>
+        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <!-- Placeholder avatar/photo frame -->
+      <img src="https://via.placeholder.com/280" alt="Professional Photo" id="profilePic">
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Background</h3>
+        <p>Passionate Web Development Intern focused on crafting user-friendly digital experiences. Experienced in turning functional requirements into elegant code using front-end technologies.</p>
+      </div>
+      <div class="about-card">
+        <h3>Education</h3>
+        <p><strong>B.S. in Computer Science / Web Development</strong></p>
+        <p>Relevant Coursework: Data Structures, UI/UX Design, Web Architecture, JavaScript Algorithms.</p>
+      </div>
+      <div class="about-card">
+        <h3>Experience</h3>
+        <p><strong>Web Development Intern — Prodigy InfoTech</strong></p>
+        <p>Developing interactive web apps, implementing scroll animations, state machines, and dynamic UI layouts.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section dark-bg">
+    <h2 class="section-title">Skills Overview</h2>
+    <div class="skills-container">
+      <div class="skill-badge">HTML5</div>
+      <div class="skill-badge">CSS3 & Flexbox</div>
+      <div class="skill-badge">JavaScript (ES6+)</div>
+      <div class="skill-badge">Responsive Design</div>
+      <div class="skill-badge">DOM Manipulation</div>
+      <div class="skill-badge">Git & GitHub</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Recent Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Task 01: Interactive Navbar</h3>
+        <p>A fixed navigation bar with scroll detection and smooth hover animations.</p>
+      </div>
+      <div class="project-card">
+        <h3>Task 02: Stopwatch App</h3>
+        <p>A web-based stopwatch featuring lap tracking, start, pause, and reset controls.</p>
+      </div>
+      <div class="project-card">
+        <h3>Task 03: Tic-Tac-Toe Game</h3>
+        <p>An interactive game with win/draw logic and a Player vs AI mode.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section dark-bg">
+    <h2 class="section-title">Get In Touch</h2>
+    <form id="contactForm" class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn primary-btn">Send Message</button>
+    </form>
+  </section>
+
+  <script src="4.js"></script>
+</body>
+</html>
